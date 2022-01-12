@@ -9,11 +9,11 @@ export default function Hero() {
         <div className="hero">
           <div className="container grid grid-cols-1 lg:grid-cols-2 py-14">
             
-            <div className="">
-                <h1 className=" text-8xl font-bold">
+            <div className="mb-5 sm:mb-0">
+                <h1 className=" text-4xl md:text-6xl lg:text-8xl font-bold">
                     Welcome to Bored Bunny
                 </h1>
-                <p className="text-xl mt-8 mb-9 text-zinc-600">
+                <p className=" text-base md:text-lg lg:text-xl mt-8 mb-9 text-zinc-600">
                     Bored Bunny is a collection of 4999 unique 3D well-designed Bunnies - Sold out in 17 minutes. Floyd Mayweather, DJ Khaled, David Dobrik, Umar Kamani, Chantel Jeffries and many more celebrities have already joined the project.
                 </p>
                 <a href='/' className="px-7 py-3 rounded-full text-base font-medium text-neutral-50 bg-gradient-to-r from-cyan-500 to-blue-500">
