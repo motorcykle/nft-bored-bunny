@@ -1,16 +1,13 @@
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
       <header>
-        <nav>
-          <div className="nav__container">
-
-          </div>
-        </nav>
+        <Navbar />
 
         <div className="hero">
-          <div className="hero__container">
+          <div className="container">
 
           </div>
         </div>
@@ -18,31 +15,31 @@ function App() {
 
       <main>
         <section className="whatisboredbunny">
-          <div className="whatisboredbunny__container">
+          <div className="container">
 
           </div>
         </section>
 
         <section className="team">
-          <div className="team__container">
+          <div className="container">
 
           </div>
         </section>
 
         <section className="benefitsandutilities">
-          <div className="benefitsandutilities__container">
+          <div className="container">
 
           </div>
         </section>
 
         <section className="roadmap">
-          <div className="roadmap__container">
+          <div className="container">
 
           </div>
         </section>
 
         <section className="faq">
-          <div className="faq__container">
+          <div className="container">
 
           </div>
         </section>
@@ -51,7 +48,7 @@ function App() {
 
 
       <footer>
-        <div className="footer__container">
+        <div className="container">
 
           
         </div>
