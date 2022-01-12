@@ -1,3 +1,4 @@
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -6,11 +7,7 @@ function App() {
       <header>
         <Navbar />
 
-        <div className="hero">
-          <div className="container">
-
-          </div>
-        </div>
+        <Hero />
       </header>
 
       <main>
@@ -20,13 +17,13 @@ function App() {
           </div>
         </section>
 
-        <section className="team">
+        <section className="benefitsandutilities">
           <div className="container">
 
           </div>
         </section>
 
-        <section className="benefitsandutilities">
+        <section className="team">
           <div className="container">
 
           </div>
