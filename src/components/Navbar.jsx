@@ -22,7 +22,7 @@ export default function Navbar() {
           {({ open }) => (
             <>
               <div className="container">
-                <div className="relative flex items-center justify-between py-2">
+                <div className="relative flex items-center justify-between py-3">
 
                   <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                     {/* Mobile menu button*/}
@@ -58,6 +58,12 @@ export default function Navbar() {
                             {item.name}
                           </a>
                         ))}
+                          <a
+                            href={"/"}
+                            className={'block px-4 py-2 rounded-full text-base font-medium text-neutral-50 bg-gradient-to-r bg-zinc-900'}
+                          >
+                            Discord
+                          </a>
                       </div>
                     </div>
 
@@ -79,6 +85,13 @@ export default function Navbar() {
                       {item.name}
                     </Disclosure.Button>
                   ))}
+                  <Disclosure.Button
+                      as="a"
+                      href={"/"}
+                      className={'block px-4 py-2 rounded-full text-base font-medium text-neutral-50 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500'}
+                  >
+                    Discord
+                  </Disclosure.Button>
                 </div>
               </Disclosure.Panel>
 

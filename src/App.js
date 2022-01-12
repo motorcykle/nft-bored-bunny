@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <header>
+      <header className="min-h-screen">
         <Navbar />
 
         <Hero />
