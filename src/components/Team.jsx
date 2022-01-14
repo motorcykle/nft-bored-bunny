@@ -68,8 +68,8 @@ const Team = () => {
   const isMobile = width <= 768;
 
   return (
-    <section className="team ">
-      <div className="container py-16 ">
+    <section className="team  -skew-y-1">
+      <div className="container py-24 pt-16">
         <div className="border-b pb-5 mb-6 text-6xl flex items-center">
           <h2 className=' font-semibold'>Meet the Team</h2>
           <img src={Smile} alt="" className='h-[1em] ml-2' />
