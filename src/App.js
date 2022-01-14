@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import WhatIsBoredBunny from "./components/WhatIsBoredBunny";
+import BenefitsAndUtilities from './components/BenefitsAndUtilities';
 
 function App() {
   return (
@@ -13,12 +14,8 @@ function App() {
 
       <main>
         <WhatIsBoredBunny />
-
-        <section className="benefitsandutilities">
-          <div className="container">
-
-          </div>
-        </section>
+        
+        <BenefitsAndUtilities />
 
         <section className="team">
           <div className="container">
