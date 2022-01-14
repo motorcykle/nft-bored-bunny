@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import WhatIsBoredBunny from "./components/WhatIsBoredBunny";
 import BenefitsAndUtilities from './components/BenefitsAndUtilities';
+import Team from './components/Team';
 
 function App() {
   return (
@@ -14,14 +15,10 @@ function App() {
 
       <main>
         <WhatIsBoredBunny />
-        
+
         <BenefitsAndUtilities />
 
-        <section className="team">
-          <div className="container">
-
-          </div>
-        </section>
+        <Team />
 
         <section className="roadmap">
           <div className="container">

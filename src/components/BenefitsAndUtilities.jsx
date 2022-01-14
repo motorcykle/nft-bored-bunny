@@ -10,7 +10,7 @@ const BenefitsAndUtilities = () => {
           <h2 className='text-6xl font-semibold'>Benefits & Utilities</h2>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full justify-items-center items-center gap-x-7 gap-y-4 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full justify-items-center items-center gap-x-7 gap-y-4">
           
           <div className="py-10 relative">
             <div className=" border-8 border-dashed absolute h-72 w-72 rounded-full bottom-0 right-0 border-zinc-100 bg-gradient-to-r from-indigo-500 via-pink-500 to-purple-500 animate-spin"></div>
