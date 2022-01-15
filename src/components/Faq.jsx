@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const qna = [
   {
@@ -28,19 +28,24 @@ const qna = [
 ]
 
 const Faq = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <section className="faq">
       <div className="container py-20">
 
-        <div className="border-b pb-5">
-          <h2 className='text-6xl font-semibold'><span className=' animate-ping '>?</span> FAQ</h2>
+        <div className="border-b pb-5 flex items-center">
+          <h2 className='text-6xl font-semibold mr-3'><span className=' animate-ping '>?</span> FAQ</h2>
+          <button onClick={() => setOpen(prev => !prev)} className=' px-5 py-2 rounded-full text-base font-semibold hover:text-zinc-800 hover:bg-neutral-200 bg-zinc-800 text-neutral-50'>
+            {open ? 'Hide answers' : 'Show answers'}
+          </button>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 py-10">
           {qna.map((qna, index) => (
             <div key={index} className=''>
               <small>{qna.question}</small>
-              <p className='text-lg'>{qna.answer}</p>
+              { open && <p className='text-lg'>{qna.answer}</p>}
             </div>
           ))}
         </div>

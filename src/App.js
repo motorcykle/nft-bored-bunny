@@ -5,6 +5,7 @@ import BenefitsAndUtilities from './components/BenefitsAndUtilities';
 import Team from './components/Team';
 import Roadmap from './components/Roadmap';
 import Faq from './components/Faq';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -29,10 +30,7 @@ function App() {
 
 
       <footer>
-        <div className="container">
-
-          
-        </div>
+        <Footer />
       </footer>
     </>
   );
