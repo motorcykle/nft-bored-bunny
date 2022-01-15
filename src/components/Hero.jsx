@@ -4,10 +4,12 @@ import TwoB from '../assets/twob.png'
 import ThreeB from '../assets/threeb.png'
 import FourB from '../assets/fourb.png'
 import { CubeTransparentIcon } from '@heroicons/react/outline'
+import Fade from 'react-reveal/Fade';
 
 export default function Hero() {
     return (
         <div className="hero">
+            <Fade left>
             <div className="container grid grid-cols-1 lg:grid-cols-2 py-10 md:py-16 lg:py-24">
             
                 <div className="mb-5 sm:mb-0 px-2 sm:px-0">
@@ -22,7 +24,7 @@ export default function Hero() {
                         Buy on OpenSea
                     </a>
                 </div>
-
+                
                 <div className="relative grid grid-cols-2 gap-3 items-center">
                     <img src={OneB} alt="" className="rounded-md w-3/12 self-end justify-self-end" />
                     <img src={TwoB} alt="" className="rounded-md w-6/12 shadow-xl" />
@@ -31,6 +33,7 @@ export default function Hero() {
                 </div>
 
             </div>
+            </Fade>
         </div>
     )
 }

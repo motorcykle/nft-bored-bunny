@@ -1,6 +1,7 @@
 import React from 'react';
 import DiamondBunny from '../assets/benefitsandutilities/img8.png';
 import { CashIcon, GiftIcon, UserGroupIcon, DuplicateIcon, GlobeAltIcon } from '@heroicons/react/solid'
+import { Fade } from 'react-reveal';
 
 const BenefitsAndUtilities = () => {
   return (
@@ -9,7 +10,8 @@ const BenefitsAndUtilities = () => {
         <div className="border-b pb-5">
           <h2 className='text-6xl font-semibold'>Benefits & Utilities</h2>
         </div>
-        
+
+        <Fade cascade left>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full justify-items-center items-center gap-x-7 gap-y-4">
           
           <div className="py-10 relative">
@@ -68,7 +70,7 @@ const BenefitsAndUtilities = () => {
           </div>
           
         </div>
-
+        </Fade>
       </div>
     </section>
   );

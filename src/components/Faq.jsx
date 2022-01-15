@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Fade } from 'react-reveal';
 
 const qna = [
   {
@@ -34,13 +35,16 @@ const Faq = () => {
     <section className="faq">
       <div className="container py-20">
 
+        <Fade left>
         <div className="border-b pb-5 flex items-center">
           <h2 className='text-6xl font-semibold mr-3'><span className=' animate-ping '>?</span> FAQ</h2>
           <button onClick={() => setOpen(prev => !prev)} className=' px-5 py-2 rounded-full text-base font-semibold hover:text-zinc-800 hover:bg-neutral-200 bg-zinc-800 text-neutral-50'>
             {open ? 'Hide answers' : 'Show answers'}
           </button>
         </div>
+        </Fade>
 
+        <Fade cascade right>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 py-10">
           {qna.map((qna, index) => (
             <div key={index} className=''>
@@ -49,6 +53,7 @@ const Faq = () => {
             </div>
           ))}
         </div>
+        </Fade>
 
       </div>
     </section>

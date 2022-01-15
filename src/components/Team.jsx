@@ -15,6 +15,7 @@ import Florian from '../assets/team/florian.png';
 import Sara from '../assets/team/sara.jpeg';
 import Eric from '../assets/team/eric.png';
 import Smile from '../assets/team/smile.png';
+import { Fade } from 'react-reveal';
 
 
 SwiperCore.use([Pagination]);
@@ -70,11 +71,14 @@ const Team = () => {
   return (
     <section className="team  -skew-y-1">
       <div className="container py-24 pt-16">
+        <Fade left>
         <div className="border-b pb-5 mb-6 text-6xl flex items-center">
           <h2 className=' font-semibold'>Meet the Team</h2>
           <img src={Smile} alt="" className='h-[1em] ml-2' />
         </div>
+        </Fade>
 
+        <Fade right>
         <Swiper slidesPerView={isMobile ? 3 : 5} spaceBetween={10} pagination={{
           "clickable": true
         }} className="mySwiper">
@@ -84,6 +88,7 @@ const Team = () => {
             </SwiperSlide>
           ))}
         </Swiper>
+        </Fade>
       </div>
     </section>
   );
