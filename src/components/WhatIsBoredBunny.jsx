@@ -34,10 +34,10 @@ The objective is to build the strongest community and project around NFTs.</p>
           <p className='text-neutral-200 font-semibold mt-7 mb-5'>
             Entering into the Bored Bunny Community means joining a family full of investors and nft enthusiasts who believe in the future of Cryptocurrencies and the blockchain technology.
           </p>
-          <button className=' border-2 border-neutral-50 px-7 py-2 rounded-full text-base font-semibold hover:text-neutral-50 hover:bg-transparent bg-neutral-50 text-zinc-800'>
+          <a href='/' className=' border-2 border-neutral-50 px-7 py-2 rounded-full text-base font-semibold hover:text-neutral-50 hover:bg-transparent bg-neutral-50 text-zinc-800'>
             Join our Discord
             <img src={DiscordLogo} alt="" className='h-5 aspect-square inline-block ml-3' />
-          </button>
+          </a>
         </div>
 
       </div>
