@@ -4,6 +4,7 @@ import WhatIsBoredBunny from "./components/WhatIsBoredBunny";
 import BenefitsAndUtilities from './components/BenefitsAndUtilities';
 import Team from './components/Team';
 import Roadmap from './components/Roadmap';
+import Faq from './components/Faq';
 
 function App() {
   return (
@@ -23,12 +24,7 @@ function App() {
 
         <Roadmap />
 
-        <section className="faq">
-          <div className="container">
-
-          </div>
-        </section>
-
+        <Faq />
       </main>
 
 
