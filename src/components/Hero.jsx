@@ -18,7 +18,7 @@ export default function Hero() {
                     <p className=" text-base md:text-lg lg:text-xl mt-8 mb-9 text-zinc-600">
                         Bored Bunny is a collection of 4999 unique 3D well-designed Bunnies - Sold out in 17 minutes. Floyd Mayweather, DJ Khaled, David Dobrik, Umar Kamani, Chantel Jeffries and many more celebrities have already joined the project.
                     </p>
-                    <a href='/' className="px-7 py-3 rounded-full text-base font-medium text-neutral-50 bg-gradient-to-r from-cyan-500 to-blue-500">
+                    <a href='https://opensea.io/collection/bored-bunny--nft' className="px-7 py-3 rounded-full text-base font-medium text-neutral-50 bg-gradient-to-r from-cyan-500 to-blue-500 animate-pulse">
                         Buy on OpenSea
                     </a>
                 </div>

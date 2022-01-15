@@ -6,8 +6,9 @@ import OpenSeaLogo from '../assets/footer/opensea.png';
 
 const Footer = () => {
   return (
-    <div className='border-t-8 border-dashed'>
-      <div className="container grid grid-cols-1 md:grid-cols-2 py-20">
+    <div className=''>
+      <div className='border-t-8 border-dashed -skew-x-12' />
+      <div className="container grid grid-cols-1 md:grid-cols-2 py-20 gap-4">
 
         <div className="flex flex-col gap-7">
           <div className="">
@@ -15,10 +16,10 @@ const Footer = () => {
             <p>Become a member of the strongest and fast growing NFTs community.</p>
           </div>
           <div className="flex items-center gap-3">
-            <a href='/' className="px-7 py-3 rounded-full text-base font-medium text-neutral-50 bg-gradient-to-r from-cyan-500 to-blue-500 hover:animate-pulse">
+            <a href='/' className="px-3 md:px-7 py-3 rounded-full text-base font-medium text-neutral-50 bg-gradient-to-r from-cyan-500 to-blue-500 hover:animate-pulse">
                 Buy on OpenSea
             </a>
-            <a href='/' className=' border-2 border-neutral-50 px-7 py-2 rounded-full text-base font-semibold hover:text-neutral-50 hover:bg-zinc-800 bg-neutral-50 text-zinc-800'>
+            <a href='/' className=' border-2 border-zinc-800 px-3 md:px-7 py-2 rounded-full text-base font-semibold hover:text-neutral-50 hover:bg-zinc-800 bg-neutral-50 text-zinc-800'>
               Join our Discord
               <img src={DiscordLogo} alt="" className='h-5 aspect-square inline-block ml-3' />
             </a>
@@ -36,7 +37,7 @@ const Footer = () => {
             <a href="/" className='underline medium'>Privacy Policy</a>
             <a href="/" className='underline medium'>Terms & Conditions</a>
           </div>
-          <p className='text-sm font-semibold mt-auto'>© 2021 BORED BUNNY. ALL RIGHTS RESERVED</p>
+          <p className='text-sm font-semibold mt-auto text-zinc-400'>© 2021 BORED BUNNY. ALL RIGHTS RESERVED</p>
         </div>
 
       </div>

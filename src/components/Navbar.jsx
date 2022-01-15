@@ -59,7 +59,7 @@ export default function Navbar() {
                           </a>
                         ))}
                           <a
-                            href={"/"}
+                            href={"https://discord.com/invite/boredbunny"}
                             className={'block px-4 py-2 rounded-full text-base font-medium text-neutral-50 bg-gradient-to-r bg-zinc-900'}
                           >
                             Discord
