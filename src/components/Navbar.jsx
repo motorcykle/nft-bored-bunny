@@ -4,11 +4,11 @@ import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
 import Logo from '../assets/logo.png';
 
 const navigation = [
-  { name: 'What is Bored Bunny', href: '#', current: false },
-  { name: 'Benefits', href: '#', current: false },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Roadmap', href: '#', current: false },
-  { name: 'FAQ', href: '#', current: false }
+  { name: 'What is Bored Bunny', href: '#whatisboredbunny', current: false },
+  { name: 'Benefits', href: '#benefitsandutilities', current: false },
+  { name: 'Team', href: '#team', current: false },
+  { name: 'Roadmap', href: '#roadmap', current: false },
+  { name: 'FAQ', href: '#faq', current: false }
 ]
 
 function classNames(...classes) {

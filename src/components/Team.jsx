@@ -69,7 +69,7 @@ const Team = () => {
   const isMobile = width <= 768;
 
   return (
-    <section className="team  -skew-y-1">
+    <section id="team" className="team  -skew-y-1">
       <div className="container py-24 pt-16">
         <Fade left>
         <div className="border-b pb-5 mb-6 text-6xl flex items-center">

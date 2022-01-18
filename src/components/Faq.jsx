@@ -32,7 +32,7 @@ const Faq = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <section className="faq">
+    <section id="faq">
       <div className="container py-20">
 
         <Fade left>

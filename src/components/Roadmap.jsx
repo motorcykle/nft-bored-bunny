@@ -7,7 +7,7 @@ import { Fade } from 'react-reveal';
 const Roadmap = () => {
   return (
     <>
-    <section className="bg-gradient-to-r from-black via-zinc-900 to-zinc-900 relative">
+    <section id="roadmap" className="bg-gradient-to-r from-black via-zinc-900 to-zinc-900 relative">
       <div className="container py-24 relative z-50">
         <Pulse>
         <div className="border-b pb-5 text-neutral-50">
